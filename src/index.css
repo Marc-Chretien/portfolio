@@ -22,3 +22,13 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+@media (max-width: 768px) {
+  main {
+    padding: 0 24px;
+  }
+
+  nav {
+    padding: 20px 24px;
+  }
+}
